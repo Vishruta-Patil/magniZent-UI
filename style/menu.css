@@ -1,0 +1,123 @@
+@import url("../../style/reset.css");
+@import url("../../style/color.css");
+@import url("../../style/common.css");
+
+/* Menu */
+.menu {
+  grid-area: menu;
+  margin: 4rem 3.5rem 4rem 1rem;
+  margin-top: 1.6rem;
+  padding: 0 2.7rem 0;
+}
+
+.drawer-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.drawer-header {
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: 900;
+}
+
+.drawer-inner-header {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.drawer-inner-header.active {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 0.7rem 2rem;
+  color: white;
+  font-weight: 900;
+}
+
+.drawer-line {
+  height: 0.5px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.social-links-toggle-menu {
+  display: none;
+}
+
+.social-link-icon {
+  color: var(--secondary-color);
+}
+
+.social-link-icon:hover {
+  color: var(--primary-color);
+}
+
+.drawer-links {
+  text-decoration: none;
+  color: black;
+}
+
+.drawer-links:hover {
+  color: var(--primary-color);
+  font-weight: 900;
+}
+/* .menu {
+  transform: translateX(-300px); 
+  transition: transform 9s ease-out, visibility 9s;
+} */
+
+@media only screen and (max-width: 800px) {
+  .html {
+    font-size: 50%;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 0 2.5rem 0;
+    margin: 0;
+    width: 35%;
+    border-right: 2.5px solid var(--primary-color);
+    border-bottom: 2.5px solid var(--primary-color);
+    font-size: 25px;
+    z-index: 1;
+    /* transform: translateX(
+      0px
+    );
+    transition: transform 9s ease-out; */
+  }
+
+  .toggle-menu-container {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .menu {
+    width: 50%;
+  }
+  .social-links-toggle-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-link-icon {
+    margin: 2rem 0;
+  }
+
+  .drawer-inner-header,
+  .drawer-header {
+    font-size: 14px;
+  }
+
+  .social-link-icon {
+    font-size: 3.3rem;
+  }
+}

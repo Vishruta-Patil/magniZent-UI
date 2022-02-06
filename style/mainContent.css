@@ -1,0 +1,55 @@
+@import url("../../style/reset.css");
+@import url("../../style/color.css");
+@import url("../../style/common.css");
+
+
+/* Main Content */
+.main-content {
+  grid-area: main-content;
+  margin-top:3.6rem;
+}
+
+.main-content-header {
+  font-size: 3.6rem;
+  color: var(--primary-color);
+}
+
+.inner-component-header {
+  font-size: 2.3rem;
+  color: var(--secondary-color);
+  margin: 2rem 0 2rem 0;
+}
+
+.inner-component-description {
+  font-size: 1.8rem;
+}
+
+.component-description {
+  margin: 1.5rem 0 1.8rem 0;
+  font-size: 1.8rem;
+}
+
+.main-component-container{
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.divider-inner-component {
+  margin-top:3rem;
+  margin-bottom: 3rem;
+  /* height:1.8px */
+}
+
+.xl-padding {
+  padding: 3.6rem 2rem 3.6rem;
+}
+
+
+/* Side Content */
+.side-content {grid-area: side-content;}

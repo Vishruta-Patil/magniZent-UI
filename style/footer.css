@@ -1,0 +1,19 @@
+@import url("../../style/reset.css");
+@import url("../../style/color.css");
+@import url("../../style/common.css");
+
+
+/* footer */
+.footer {
+    grid-area: footer;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--secondary-color)
+  }

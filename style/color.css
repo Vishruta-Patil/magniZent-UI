@@ -1,0 +1,28 @@
+:root {
+--primary-color : #0097A7;
+--background-color: #F2F2F2;
+--extra-color: #3E4152;
+--box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+--hr-line: #E2E2E2;
+--border: #f0efef;
+--secondary-color: rgba(0,0,0,0.6);
+--close-button-hover: rgba(0,0,0,0.35);
+
+--primary-component-color: #29438b;
+--primary-component-background-color: #7FD2E6;
+
+--secondary-component-color: #696b79;
+--secondary-component-background-color:#eaeaec;
+
+--success-component-color: #1b7052;
+--success-component-background-color:#84f1c9;
+
+--warning-component-color: #ff9204;
+--warning-component-background-color:#ffe7c5;
+
+--danger-component-color: #dc3545;
+--danger-component-background-color: #fcc5c5;
+
+--idle-badge-color: #FFFF00;
+
+}

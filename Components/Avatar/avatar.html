@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatar || magniZent UI</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../style/header.css" />
+    <link rel="stylesheet" href="../../style/menu.css" />
+    <link rel="stylesheet" href="../../style/mainContent.css" />
+    <link rel="stylesheet" href="../../style/footer.css" />
+    <link rel="stylesheet" href="../../style/sideContent.css" />
+    <link rel="stylesheet" href="../../style/codeSnippet.css" />
+    <link rel="stylesheet" href="avatar.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div
+          class="logo flex-container"
+          style="align-items: baseline; gap: 2rem"
+        >
+          <span id="hamburger-menu" class="material-icons hamburger-menu">
+            menu
+          </span>
+          <h2 class="main-title">
+            magni<span class="bold-main-title">Z</span>ent
+            <span class="bold-main-title">UI</span>
+          </h2>
+        </div>
+
+        <div class="header-main-content">
+          <ul class="header-item-container flex">
+            <li class="header-item">Home</li>
+            <li class="header-item">Documentation</li>
+          </ul>
+        </div>
+        <div class="social-links-container">
+          <ul class="flex">
+            <li>
+              <a href="https://github.com/Vishruta-Patil" target="_blank"
+                ><i class="fab fa-github social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="http://www.linkedin.com/in/vishruta-patil-30106b204"
+                target="_blank"
+                ><i class="fab fa-linkedin social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fab fa-twitter social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fas fa-moon social-link-icon"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu toggle-menu-container">
+        <div class="drawer-container intro-drawer-container">
+          <h3 class="drawer-header">Get Started</h3>
+          <p class="drawer-inner-header">Introduction</p>
+          <p class="drawer-inner-header">Usage</p>
+          <p class="drawer-inner-header">Typography</p>
+          <p class="drawer-inner-header">Colors</p>
+        </div>
+        <hr class="hr-line drawer-line" />
+        <div class="drawer-container component-drawer-container">
+          <p class="drawer-inner-header">
+            <a class="drawer-links" href="../Avatar/avatar.html">Avatar</a>
+          </p>
+          <p class="drawer-inner-header">
+            <a class="drawer-links" href="../Badge/badge.html">Badge</a>
+          </p>
+          <p class="drawer-inner-header">Card</p>
+          <p class="drawer-inner-header">Drawer</p>
+          <p class="drawer-inner-header">Badge</p>
+          <p class="drawer-inner-header">Input</p>
+          <p class="drawer-inner-header">List</p>
+          <p class="drawer-inner-header">Drawer</p>
+          <p class="drawer-inner-header">Alert</p>
+        </div>
+
+        <div class="social-links-container social-links-toggle-menu">
+          <ul class="flex">
+            <li>
+              <a href="https://github.com/Vishruta-Patil" target="_blank"
+                ><i class="fab fa-github social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="http://www.linkedin.com/in/vishruta-patil-30106b204"
+                target="_blank"
+                ><i class="fab fa-linkedin social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fab fa-twitter social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fas fa-moon social-link-icon"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <h2 class="main-content-header">Avatar</h2>
+        <p class="component-description">
+          The Avatar component is used to represent a user, and displays the
+          profile picture, initials or placeholder icon. It can be used in login
+          page, notification bar, and in various parts of the project etc <br />
+          <br />
+
+          Avatar component comes in 6 sizes. You can change the size of avatar
+          by adding the classes. <br />
+          Classes available are <span class="class-name">xl-2</span> |
+          <span class="class-name">xl</span> |
+          <span class="class-name">lg</span> |
+          <span class="class-name">md</span> |
+          <span class="class-name">sm</span> |
+          <span class="class-name">xs</span>
+        </p>
+
+        <hr class="hr-line" />
+
+        <div class="hero-component-container">
+          <div id="circular-avatar" class="circular-avatar-container">
+            <h3 class="inner-component-header">Circular Avatar</h3>
+            <p class="inner-component-description">
+              Circular Avatars can be created using the class
+              <span class="class-name">avatar</span> inside the img tag.
+            </p>
+            <div class="main-component-container">
+              <div class="hero-inner-component-container">
+                <div>
+                  <img
+                    class="avatar xl-2"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="avatar xl"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="avatar lg"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="avatar md"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="avatar sm"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    class="avatar xs"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/1ca9b6c9441838d582cf083096028d28.js"></script>
+            </div>
+          </div>
+          <hr class="hr-line divider-inner-component" />
+
+          <div id="rounded-avatar" class="rounded-avatar-container">
+            <h3 class="inner-component-header">Rounded Avatar</h3>
+            <p class="inner-component-description">
+              Rounded Avatars can be created using the class
+              <span class="class-name">avatar-rounded</span> inside the img tag.
+            </p>
+            <div class="main-component-container">
+              <div class="hero-inner-component-container">
+                <div class="img-container">
+                  <img
+                    class="avatar-rounded xl-2"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar-rounded xl"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar-rounded lg"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar-rounded md"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar-rounded sm"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar-rounded xs"
+                    src="../../assets/vishruta.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/5f083bd0b11b41ba0836d3dda449018a.js"></script>
+            </div>
+          </div>
+          <hr class="hr-line divider-inner-component" />
+
+          <div
+            id="circular-avatar-with-badge"
+            class="circular-avatar-badge-container"
+          >
+            <h3 class="inner-component-header">Avatar with badge</h3>
+            <p class="inner-component-description">
+             Avatar with badge can be created using the class
+              <span class="class-name">avatar badge-avatar</span>. And badge can
+              be created using the class
+              <span class="class-name">badge badge-xl-2</span> <br />
+              Don't forget to add the size of badge according to the chosen
+              avatar. And you can change the image by overwriting css of the
+              class badge-avatar by adding the background image url.
+            </p>
+            <div class="main-component-container">
+              <div class="hero-inner-component-container">
+                <div class="img-container">
+                  <div class="avatar badge-avatar xl-2">
+                    <span class="badge badge-xl-2"></span>
+                  </div>
+                </div>
+
+                <div class="img-container">
+                  <div class="avatar badge-avatar xl">
+                    <span class="badge badge-xl"></span>
+                  </div>
+                </div>
+
+                <div class="img-container">
+                  <div class="avatar badge-avatar lg">
+                    <span class="badge badge-lg"></span>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div class="avatar badge-avatar md">
+                    <span class="badge badge-md"></span>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div class="avatar badge-avatar sm">
+                    <span class="badge badge-sm"></span>
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div class="avatar badge-avatar xs">
+                    <span class="badge badge-xs"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/8e9ddc6f3571467795261e7abddc2346.js"></script>
+            </div>
+          </div>
+          <hr class="hr-line divider-inner-component" />
+
+          <div
+            id="Circular-avatar-with-placeholder-icon"
+            class="circular-placeholder-avatar-container"
+          >
+            <h3 class="inner-component-header">
+              Avatar with placeholder icon
+            </h3>
+            <p class="inner-component-description">
+              Avatar with placeholder icon can be created using the class <span class="class-name">avatar-placeholder</span>, inside
+              the img tag.
+            </p>
+            <div class="main-component-container">
+              <div class="hero-inner-component-container">
+                <div class="img-container">
+                  <img
+                    class="avatar avatar-placeholder xl-2"
+                    src="../../assets/avatar-placeholder.PNG"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar avatar-placeholder xl"
+                    src="../../assets/avatar-placeholder.PNG"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar avatar-placeholder lg"
+                    src="../../assets/avatar-placeholder.PNG"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar avatar-placeholder md"
+                    src="../../assets/avatar-placeholder.PNG"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar avatar-placeholder sm"
+                    src="../../assets/avatar-placeholder.PNG"
+                    alt=""
+                  />
+                </div>
+                <div class="img-container">
+                  <img
+                    class="avatar avatar-placeholder xs"
+                    src="../../assets/avatar-placeholder.PNG"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/4d12d07ddb56d7260a26037f103046e9.js"></script>
+            </div>
+          </div>
+          <hr class="hr-line divider-inner-component" />
+
+          <div
+            id="Circular-avatar-with-placeholder-initial"
+            class="circular-placeholder-initial-avatar-container"
+          >
+            <h3 class="inner-component-header">
+              Avatar with placeholder initial
+            </h3>
+            <p class="inner-component-description">
+              Avatar with placeholder initial can be created using the class <span class="class-name">avatar-placeholder-initial</span>, inside
+              the img tag. And the class <span class="class-name">flex-container</span> will be used to center the initial.
+            </p>
+            <div class="main-component-container">
+              <div class="hero-inner-component-container">
+                <div class="img-container">
+                  <div
+                    class="avatar avatar-placeholder-initial flex-container xl-2"
+                  >
+                    VP
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div
+                    class="avatar avatar-placeholder-initial flex-container xl"
+                  >
+                    VP
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div
+                    class="avatar avatar-placeholder-initial flex-container lg"
+                  >
+                    VP
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div
+                    class="avatar avatar-placeholder-initial flex-container md"
+                  >
+                    VP
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div
+                    class="avatar avatar-placeholder-initial flex-container sm"
+                  >
+                    VP
+                  </div>
+                </div>
+                <div class="img-container">
+                  <div
+                    class="avatar avatar-placeholder-initial flex-container xs"
+                  >
+                    VP
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/0ae1183638a3a1253cdfd559ae203391.js"></script>
+            </div>
+          </div>
+          <hr class="hr-line divider-inner-component" />
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-container">
+          <div class="previous-page">
+            <span class="material-icons"> chevron_left </span>
+            <p>left</p>
+          </div>
+
+          <div class="next-page">
+            <span class="material-icons"> chevron_right </span>
+            <p>right</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="side-content">
+        <h2 class="side-content-title">On This Page</h2>
+        <p class="side-content-subtitle">
+          <a class="side-content-links" href="#circular-avatar"
+            >Circular Avatar</a
+          >
+        </p>
+        <p class="side-content-subtitle">
+          <a class="side-content-links" href="#rounded-avatar"
+            >Rounded Avatar</a
+          >
+        </p>
+        <p class="side-content-subtitle">
+          <a class="side-content-links" href="#circular-avatar-with-badge"
+            >Avatar with badge</a
+          >
+        </p>
+        <p class="side-content-subtitle">
+          <a
+            class="side-content-links"
+            href="#Circular-avatar-with-placeholder-icon"
+            > Avatar with placeholder icon</a
+          >
+        </p>
+        <p class="side-content-subtitle">
+          <a
+            class="side-content-links"
+            href="#Circular-avatar-with-placeholder-initial"
+            >Avatar with placeholder initial</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script src="../../index.js">
+      <a class="side-content-links" href="#avatar-with-badge"></a>
+    </script>
+  </body>
+</html>

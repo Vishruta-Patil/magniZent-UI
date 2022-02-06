@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge || magniZent UI</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../style/header.css" />
+    <link rel="stylesheet" href="../../style/menu.css" />
+    <link rel="stylesheet" href="../../style/mainContent.css" />
+    <link rel="stylesheet" href="../../style/footer.css" />
+    <link rel="stylesheet" href="../Avatar/avatar.css" />
+    <link rel="stylesheet" href="../../style/sideContent.css" />
+    <link rel="stylesheet" href="../../style/codeSnippet.css" />
+    <link rel="stylesheet" href="badge.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div
+          class="logo flex-container"
+          style="align-items: baseline; gap: 2rem"
+        >
+          <span id="hamburger-menu" class="material-icons hamburger-menu">
+            menu
+          </span>
+          <h2 class="main-title">
+            magni<span class="bold-main-title">Z</span>ent
+            <span class="bold-main-title">UI</span>
+          </h2>
+        </div>
+
+        <div class="header-main-content">
+          <ul class="header-item-container flex">
+            <li class="header-item">Home</li>
+            <li class="header-item">Documentation</li>
+          </ul>
+        </div>
+        <div class="social-links-container">
+          <ul class="flex">
+            <li>
+              <a href="https://github.com/Vishruta-Patil" target="_blank"
+                ><i class="fab fa-github social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="http://www.linkedin.com/in/vishruta-patil-30106b204"
+                target="_blank"
+                ><i class="fab fa-linkedin social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fab fa-twitter social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fas fa-moon social-link-icon"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu toggle-menu-container">
+        <div class="drawer-container intro-drawer-container">
+          <h3 class="drawer-header">Get Started</h3>
+          <p class="drawer-inner-header">Introduction</p>
+          <p class="drawer-inner-header">Usage</p>
+          <p class="drawer-inner-header">Typography</p>
+          <p class="drawer-inner-header">Colors</p>
+        </div>
+        <hr class="hr-line drawer-line" />
+        <div class="drawer-container component-drawer-container">
+          <p class="drawer-inner-header"><a class="drawer-links" href="../Avatar/avatar.html">Avatar</a></p> 
+          <p class="drawer-inner-header"><a class="drawer-links" href="../Badge/badge.html">Badge</a></p>
+          <p class="drawer-inner-header">Card</p>
+          <p class="drawer-inner-header">Drawer</p>
+          <p class="drawer-inner-header">Badge</p>
+          <p class="drawer-inner-header">Input</p>
+          <p class="drawer-inner-header">List</p>
+          <p class="drawer-inner-header">Drawer</p>
+          <p class="drawer-inner-header">Alert</p>
+        </div>
+
+        <div class="social-links-container social-links-toggle-menu">
+          <ul class="flex">
+            <li>
+              <a href="https://github.com/Vishruta-Patil" target="_blank"
+                ><i class="fab fa-github social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="http://www.linkedin.com/in/vishruta-patil-30106b204"
+                target="_blank"
+                ><i class="fab fa-linkedin social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fab fa-twitter social-link-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/vishruta_patil" target="_blank"
+                ><i class="fas fa-moon social-link-icon"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <h2 class="main-content-header">Badge</h2>
+        <p class="component-description">
+          Badges are used to highlight an item's status for quick recognition. It is generally used to show the count of notification or status of the user.
+        </p>
+
+        <hr class="hr-line" />
+
+        <div id="avatar-with-badge" class="hero-component-container">
+          <div class="circular-avatar-badge-container">
+            <h3 class="inner-component-header">Status Badge</h3>
+            <p class="inner-component-description">
+              Status badge is used to show the status of the user. It has 3 variants <span class="class-name">online-badge | dnd-badge | idle-badge</span>
+            </p>
+            <div class="main-component-container">
+              <div class="hero-inner-component-container">
+                <div class="img-container">
+                  <div class="avatar badge-avatar xl">
+                    <span class="badge badge-xl online-badge"></span>
+                  </div>
+                </div>
+
+                <div class="img-container">
+                  <div class="avatar badge-avatar xl">
+                    <span class="badge badge-xl dnd-badge"></span>
+                  </div>
+                </div>
+
+                <div class="img-container">
+                  <div class="avatar badge-avatar xl">
+                    <span class="badge badge-xl idle-badge"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/bcbee53ef0c00c3e99e860dcd006a0f5.js"></script>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-line divider-inner-component" />
+
+        <div id="icon-with-badge"  class="circular-avatar-badge-container">
+          <h3 class="inner-component-header">Icon badge</h3>
+          <p class="inner-component-description">
+            Icon badge is used to show the count of the notification or add cart option. It can be created using the class <span class="class-name">badge-icons icon-badge</span>
+            Font size of badge text is in em. It will change as per the parent element's font-size.
+          </p>
+          <div class="main-component-container">
+            <div  class="icon-with-badge hero-inner-component-container">
+              <div class="material-icons badge-icons">
+                home <span
+                class="flex-container icon-badge"
+                >21</span
+                >
+              </div>
+
+              <div class="material-icons badge-icons">
+               shopping_cart <span
+                class="flex-container icon-badge"
+                >6</span
+                >
+              </div>
+
+              <div class="material-icons badge-icons">
+                notifications <span
+                 class="flex-container icon-badge"
+                 >189</span
+                 >
+               </div>
+              
+            </div>
+          </div>
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/337136958fe03695780f8edc1142d468.js"></script>
+            </div>          
+        </div>
+
+        <hr class="hr-line divider-inner-component" />
+
+        <div id="button-with-badge"  class="circular-avatar-badge-container">
+          <h3 class="inner-component-header">Button with Badge</h3>
+          <p class="inner-component-description">
+            Button with badge can be created using the class <span class="class-name">button-badge-container icon-badge badge-of-btn</span>.
+            Font size of badge text is in em. It will change as per the parent element's font-size.
+          </p>
+          <div class="main-component-container">
+            <div  class="icon-with-badge hero-inner-component-container">
+
+              <div class="button-badge-container">
+                <button class="badge-btn">Button <span
+                  class="flex-container icon-badge badge-of-btn"
+                  >9</span</button>
+              </div>    
+                   
+            </div>
+
+          </div>
+          <div class="code-snippet-container">
+            <script src="https://gist.github.com/Vishruta-Patil/18fbea6142b013b09a9b996d345bb708.js"></script>
+          </div> 
+        </div>
+
+        <hr class="hr-line divider-inner-component" />
+
+        <div id="toggle-button-with-badge" class="circular-avatar-badge-container">
+          <h3 class="inner-component-header">Toggle Button with badge</h3>
+          <p class="inner-component-description">
+            Toggle Button with badge can hide the batch on clicking on the button. It can be created using the class <span class="class-name">toggle-button-with-badge toggle-button-with-badge-id</span>.
+            Font size of badge text is in em. It will change as per the parent element's font-size.
+          </p>
+          <div class="main-component-container">
+            <div class="button-badge-container flex-container">
+            <button class="btn toggle-button-with-badge">
+              Hide
+              <span
+                id="toggle-id"
+                class="flex-container button-with-badge toggle-button-with-badge-id"
+                >9</span
+              >
+            </button>
+          </div>
+          </div>
+          <div class="code-snippet-container">
+            <script src="https://gist.github.com/Vishruta-Patil/2bd6149d4fa3bfa7fba5009b23e215c2.js"></script>
+          </div> 
+        </div>
+
+        <hr class="hr-line divider-inner-component" />
+
+        <div id="text-with-badge" class="circular-avatar-badge-container">
+          <h3 class="inner-component-header">Text with badge</h3>
+          <p class="inner-component-description">
+            Text with badge can be created using the class <span class="class-name">icon-with-badge text-with-badge-id</span>.
+            Font size of badge text is in em. It will change as per the parent element's font-size.
+          </p>
+          <div class="main-component-container">
+            <div  class="icon-with-badge hero-inner-component-container">
+              <p class="heading">
+                Text with a badge
+                <span class="flex-container text-with-badge-id">2</span>
+              </p>
+              
+            </div>
+          </div>
+          <div class="code-snippet-container">
+            <script src="https://gist.github.com/Vishruta-Patil/f540c94109b1e27eb7a506f643ed3d5c.js"></script>
+          </div> 
+        </div>
+
+        <hr class="hr-line divider-inner-component" />
+
+      </div>
+
+      <div class="footer">
+        <div class="footer-container">
+          <div class="previous-page">
+            <span class="material-icons"> chevron_left </span>
+            <p>left</p>
+          </div>
+
+          <div class="next-page">
+            <span class="material-icons"> chevron_right </span>
+            <p>right</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="side-content">
+        <h2 class="side-content-title">On This Page</h2>
+        <p class="side-content-subtitle"><a class="side-content-links" href="#avatar-with-badge">Status Badge</a></p>
+        <p class="side-content-subtitle"><a class="side-content-links" href="#icon-with-badge">Icon Badge</a></p>
+        <p class="side-content-subtitle"><a class="side-content-links" href="#button-with-badge">Button with Badge</a></p>
+        <p class="side-content-subtitle"><a class="side-content-links" href="#toggle-button-with-badge">Toggle Button with Badge</a></p>
+        <p class="side-content-subtitle"><a class="side-content-links" href="#text-with-badge">Text with Badge</a></p>
+      </div>
+    </div>
+
+    <script src="../../index.js"></script>
+    <script src="badge.js"></script>
+  </body>
+</html>

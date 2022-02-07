@@ -8,4 +8,9 @@ document.addEventListener("click", (e) => {
     menuContainer.classList.add("toggle-menu-container")
     menuContainer.classList.remove("display-block-container")
   }
+<<<<<<< HEAD
 });
+=======
+});
+
+>>>>>>> 772002a760a72cb6aa740a2d6ad4632602a4ef19

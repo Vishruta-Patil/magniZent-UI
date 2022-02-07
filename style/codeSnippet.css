@@ -10,7 +10,7 @@
 
 body .gist .gist-file {
   margin-bottom: 0;
-  border: 5px solid var(--secondary-color);
+  border: 0.5rem solid var(--secondary-color);
   border-radius: 0;
 }
 

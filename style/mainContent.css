@@ -22,11 +22,13 @@
 
 .inner-component-description {
   font-size: 1.8rem;
+  color: var(--secondary-color)
 }
 
 .component-description {
   margin: 1.5rem 0 1.8rem 0;
   font-size: 1.8rem;
+  color: var(--secondary-color)
 }
 
 .main-component-container{

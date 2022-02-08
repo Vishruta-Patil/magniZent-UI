@@ -1,10 +1,11 @@
 :root {
 --primary-color : #0097A7;
 --background-color: #F2F2F2;
---extra-color: #3E4152;
+--text-secondary-color: #3E4152;
 --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 --hr-line: #E2E2E2;
 --border: #f0efef;
+--border-input: #bebcbc;
 --secondary-color: rgba(0,0,0,0.6);
 --close-button-hover: rgba(0,0,0,0.35);
 

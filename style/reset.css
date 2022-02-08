@@ -12,6 +12,23 @@ html {
   font-size: 62.5%;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:white; 
+  border-radius: 1rem;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); 
+  border-radius: 1rem;
+}
+
 @media only screen and (max-width: 1000px) {
   html {
     font-size: 58%;

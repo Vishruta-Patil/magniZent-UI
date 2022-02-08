@@ -1,0 +1,9 @@
+.resonsive-image {
+  height: auto;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.round-image {
+    border-radius: 50%;
+}

@@ -28,6 +28,11 @@
   flex-wrap: wrap;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .container {
   display: grid;
   grid-template-areas:

@@ -1,0 +1,77 @@
+img {
+    width: fit-content;
+    height: 15rem
+}
+
+.stacked-list-container{
+    display: flex;
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.price-tag {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+  
+  .price {
+    font-size:2.5rem;
+  }
+  
+  .price-overlined {
+    text-decoration: line-through;
+  }
+  
+  .offer-tag {
+    font-size: 1.8rem;
+    color: var(--danger-component-color);
+    font-weight: 700;
+  }
+
+  .description {
+    opacity: 0.7;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+
+  .stacked-box {
+      list-style-type: none;
+  }
+
+  .flex-row {
+    justify-content: space-evenly;
+  }
+
+  .upper-roman {
+    list-style-type: upper-roman;
+  }
+
+  .lower-roman {
+    list-style-type: lower-roman;
+  }
+
+  .upper-alpha {
+    list-style-type: upper-alpha;
+  }
+
+  .lower-alpha {
+    list-style-type: lower-alpha;
+  }
+
+  .list-style-square {
+    list-style-type: square;
+  }
+
+  .list-style-circle {
+    list-style-type: circle;
+}
+
+.gist-data{
+    height:25rem; 
+    overflow: auto
+  }

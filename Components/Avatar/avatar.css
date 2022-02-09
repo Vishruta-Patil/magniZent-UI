@@ -62,7 +62,7 @@
   background-color: var(--primary-color);
   border-radius: 50%;
   position: absolute;
-  border: 2px solid white;
+  border: 2px solid var(--white-color);
 }
 
 .badge-xl-2 {
@@ -70,7 +70,7 @@
   height: 2.5rem;
   bottom: 5px;
   right: 5px;
-  border: 3px solid white;
+  border: 3px solid var(--white-color);
 }
 
 .badge-xl {
@@ -78,7 +78,7 @@
   height: 1.8rem;
   bottom: 2px;
   right: 2px;
-  border: 3px solid white;
+  border: 3px solid var(--white-color);
 }
 .badge-lg {
   width: 1.5rem;

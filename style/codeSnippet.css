@@ -17,8 +17,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: white;
-  color: red;
+  background-color: var(--white-color);
 }
 
 body .gist .blob-wrapper {
@@ -47,7 +46,7 @@ body .gist tr:last-child td {
 }
 
 body .gist .blob-num {
-  color: white;
+  color: var(--white-color);
   background-color: var(--primary-color);
   pointer-events: none;
   /* border-right: 5px solid var(--primary-color); */
@@ -58,6 +57,6 @@ body .gist .gist-meta {
 }
 
 body .gist .blob-code {
-  color: black;
+  color: var(--black-color);
   font-weight: 300;
 }

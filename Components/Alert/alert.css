@@ -83,7 +83,7 @@
 .alert-close-btn:hover {
   border-radius: 50%;
   background-color: var(--close-button-hover);
-  color: white;
+  color: var(--white-color);
 }
 
 #alert-close-btn {

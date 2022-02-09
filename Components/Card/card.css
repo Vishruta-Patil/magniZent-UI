@@ -1,10 +1,10 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: var(--white-color);
   width: 35rem;
   border-radius: 7px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--box-shadow);
   margin: auto
 }
 
@@ -16,7 +16,7 @@
   margin-bottom: 1rem;
   font-size: 2.4rem;
   font-weight: 1000;
-  color: #2a81e0;
+  color: var(--primary-color);
 }
 
 .heading-2 {
@@ -68,20 +68,20 @@ img {
 }
 
 .font-button {
-  color: #2a81e0;
+  color: var(--primary-color);
   font-weight: 700;
   width: auto;
   padding: 7px;
 }
 
 .font-button:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--font-btn-hover);
   border-radius: 7px;
 }
 
 .ecommerce-btn {
-  background-color: rgb(42, 129, 224);
-  color: white;
+  background-color:  var(--primary-color);
+  color: var(--white-color);
   border-radius: 5px;
   margin-right: 1rem;
   display: flex;
@@ -91,7 +91,7 @@ img {
 }
 
 .ecommerce-btn:hover {
-background-color: rgba(42, 129, 224,0.7);
+  opacity: 0.7;
 }
 
 .icon-button {
@@ -103,7 +103,7 @@ background-color: rgba(42, 129, 224,0.7);
 .icon-button:hover {
   border-radius: 50%;
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--icon-btn-hover);
 }
 
 .material-icons {
@@ -113,7 +113,7 @@ background-color: rgba(42, 129, 224,0.7);
 /* basic card */
 .basic-card {
   max-width: 35rem;
-  background-color: white;
+  background-color: var(--white-color);
 }
 
 .basic-card-img-container img {
@@ -134,7 +134,7 @@ background-color: rgba(42, 129, 224,0.7);
   position: absolute;
   top: 2rem;
   left: 0;
-  color: white;
+  color: var(--white-color);
 }
 
 .text-over-media-heading-3 {
@@ -145,13 +145,13 @@ background-color: rgba(42, 129, 224,0.7);
 .text-over-media-heading-2 {
   opacity: 1;
   font-weight: 1000;
-  color: black;
+  color: var(--black-color);
 }
 
 .text-over-media-heading-1 {
   margin-bottom: 5px;
   font-weight: 800;
-  color: black;
+  color: var(--black-color);
 }
 
 /* card with header */
@@ -201,14 +201,14 @@ background-color: rgba(42, 129, 224,0.7);
 
 .offer-tag {
   font-size: 1.8rem;
-  color: red;
+  color: var(--danger-component-color);
   font-weight: 700;
 }
 
 .save-later-btn {
-  background-color: white;
-  color:#2a81e0;
-  border: 1px solid #2a81e0;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 1px solid  var(--primary-color);
 }
 
 .overlay-container {
@@ -229,8 +229,8 @@ background-color: rgba(42, 129, 224,0.7);
   top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
+  background-color: var(--black-color);
+  color: var(--white-color);
   padding: 1rem;
   width: 30rem;
   text-align: center;

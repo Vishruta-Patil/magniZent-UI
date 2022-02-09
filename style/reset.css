@@ -20,7 +20,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background:white; 
+  background:var(--white-color); 
   border-radius: 1rem;
 }
  

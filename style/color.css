@@ -8,6 +8,10 @@
 --border-input: #bebcbc;
 --secondary-color: rgba(0,0,0,0.6);
 --close-button-hover: rgba(0,0,0,0.35);
+--black-color: #212121;
+--white-color: #FEFEFE;
+--icon-btn-hover: rgba(0, 0, 0, 0.2);
+--font-btn-hover: rgba(0, 0, 0, 0.05);
 
 --primary-component-color: #29438b;
 --primary-component-background-color: #7FD2E6;

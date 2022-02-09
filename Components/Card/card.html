@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card || magniZent UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../../style/header.css" />
+    <link rel="stylesheet" href="../../style/menu.css" />
+    <link rel="stylesheet" href="../../style/mainContent.css" />
+    <link rel="stylesheet" href="../../style/codeSnippet.css" />
+    <link rel="stylesheet" href="../../style/footer.css" />
+    <link rel="stylesheet" href="../../style/sidecontent.css" />
+    <link rel="stylesheet" href="card.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo flex-container" style="align-items: baseline; gap: 2rem">
+                <span id="hamburger-menu" class="material-icons hamburger-menu">
+                    menu
+                </span>
+                <h2 class="main-title">
+                    magni<span class="bold-main-title">Z</span>ent
+                    <span class="bold-main-title">UI</span>
+                </h2>
+            </div>
+
+            <div class="header-main-content">
+                <ul class="flex">
+                    <li class="header-item">Home</li>
+                    <li class="header-item">Documentation</li>
+                </ul>
+            </div>
+            <div class="social-links-container">
+                <ul class="flex">
+                    <li>
+                        <a href="https://github.com/Vishruta-Patil" target="_blank"><i
+                                class="fab fa-github social-link-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/in/vishruta-patil-30106b204" target="_blank"><i
+                                class="fab fa-linkedin social-link-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/vishruta_patil" target="_blank"><i
+                                class="fab fa-twitter social-link-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/vishruta_patil" target="_blank"><i
+                                class="fas fa-moon social-link-icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="drawer-container intro-drawer-container">
+                <h3 class="drawer-header">Get Started</h3>
+                <p class="drawer-inner-header">Introduction</p>
+                <p class="drawer-inner-header">Usage</p>
+                <p class="drawer-inner-header">Typography</p>
+                <p class="drawer-inner-header">Colors</p>
+            </div>
+            <hr class="hr-line drawer-line" />
+            <div class="drawer-container component-drawer-container">
+                <p class="drawer-inner-header">
+                    <a class="drawer-links" href="../Alert/alert.html">Alert</a>
+                </p>
+                <p class="drawer-inner-header">
+                    <a class="drawer-links" href="../Avatar/avatar.html">Avatar</a>
+                </p>
+                <p class="drawer-inner-header">
+                    <a class="drawer-links" href="../Badge/badge.html">Badge</a>
+                </p>
+                <p class="drawer-inner-header">
+                    <a class="drawer-links" href="../Button/button.html">Button</a>
+                </p>
+                <p class="drawer-inner-header">
+                    <a class="drawer-links" href="../Card/card.html">Card</a>
+                </p>
+                <p class="drawer-inner-header">
+                    <a class="drawer-links" href="../Image/image.html">Image</a>
+                </p>
+                <p class="drawer-inner-header">
+                    <a class="drawer-links" href="../Input/input.html">Input</a>
+                </p>
+            </div>
+
+            <div class="social-links-container social-links-toggle-menu">
+                <ul class="flex">
+                    <li>
+                        <a href="https://github.com/Vishruta-Patil" target="_blank"><i
+                                class="fab fa-github social-link-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/in/vishruta-patil-30106b204" target="_blank"><i
+                                class="fab fa-linkedin social-link-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/vishruta_patil" target="_blank"><i
+                                class="fab fa-twitter social-link-icon"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/vishruta_patil" target="_blank"><i
+                                class="fas fa-moon social-link-icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <h2 class="main-content-header">Card</h2>
+            <p class="component-description">
+                A card is a flexible and extensible content container. It includes options for headers and
+                footer-card-cards, a wide variety of content, contextual background colors or images, and powerful
+                display options.
+            </p>
+
+            <hr class="hr-line" />
+
+            <div id="contained-button" class="hero-component-container">
+                <div id="vertical-card" class="basic-card-container">
+                    <h3 class="inner-component-header">Vertical Card</h3>
+                    <p class="inner-component-description">
+                       Vertical card is the basic card with all the items aligned in verical form with header, image , price tag and the button. 
+                    </p>
+
+                    <div class="main-component-container">
+                        <div class="card basic-card">
+                            <div class="basic-card-container">
+                                <div class="basic-card-des card-description">
+                                    <h2 class="card-with-header-heading1 heading-1">
+                                        Thinkpad E14 11th Gen (Intel)
+                                    </h2>
+                                    <p class="heading-2">Sold by ADJ</p>
+                                </div>
+
+                                <div class="basic-card-img-container">
+                                    <img class="card-with-header-img" src="../../assets/card_img3.jpg" alt="image" />
+                                </div>
+                                <p class="heading-3">
+                                    11th Generation Intel® Core™ i5-11320H Processor (8MB Cache, up to
+                                    4.5GHz)
+                                </p>
+                            </div>
+                            <div class="price-tag">
+                                <h2 class="price">₹46,990</h2>
+                                <h2 class="price-overlined">₹56,999</h2>
+                                <p class="offer-tag">17% off</p>
+                            </div>
+                            <div class="footer-card">
+                                <button class="btn ecommerce-btn add-cart-btn"><span class="material-icons"> add_shopping_cart </span> Add to Cart</button>
+                                <button class="btn ecommerce-btn save-later-btn">
+                                    Save for later
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet-container">
+                        <script src="https://gist.github.com/Vishruta-Patil/5434eb0a9687d9eba2340ca3a5b91d9f.js"></script>
+                    </div>
+                </div>
+                <hr class="hr-line divider-inner-component" />
+
+                <div id="card-with-dismiss" class="hero-component-container">
+                    <div class="circular-avatar-badge-container">
+                        <h3 class="inner-component-header">Card with Dismiss</h3>
+                        <p class="inner-component-description">
+                           Card with Dismiss is same as vertical card but it has feature of closing card. Add the class dismiss-btn in the button and the class dismiss-btn-inner-container in the div tag.
+
+                        </p>
+
+                        <div class="main-component-container">
+                            <div class="card basic-card dismiss-btn-container">
+                                <div class="basic-card-container">
+                                    <div class="basic-card-des card-description">
+                                        <div class="dismiss-btn-inner-container">
+                                            <h2 class="card-with-header-heading1 heading-1">Thinkpad E14 (Intel)</h2>
+                                            <button class="dismiss-btn">X</button>
+                                        </div>
+                                        <p class="heading-2">Sold by ADJ</p>
+                                    </div>
+
+                                    <div class="basic-card-img-container">
+                                        <img class="card-with-header-img" src="../../assets/card_laptop.jpg"
+                                            alt="image" />
+                                    </div>
+                                    <p class="heading-3">
+                                        11th Generation Intel® Core™ i5-11320H Processor (8MB Cache, up to 4.5GHz)
+                                    </p>
+                                </div>
+                                <div class="price-tag">
+                                    <h2 class="price">₹46,990</h2>
+                                    <h2 class="price-overlined">₹56,999</h2>
+                                    <p class="offer-tag">17% off</p>
+                                </div>
+                                <div class="footer-card">
+                                   <button class="btn ecommerce-btn add-cart-btn"><span class="material-icons"> add_shopping_cart </span> Add to Cart</button>
+                                    <button class="btn ecommerce-btn save-later-btn">
+                                        Save for later
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                
+                <div class="code-snippet-container">
+                    <script src="https://gist.github.com/Vishruta-Patil/01149b440078573a5ef9b3524a30d5a4.js"></script>
+                </div>
+                </div>
+                <hr class="hr-line divider-inner-component" />
+
+                <div id="card-with-text-overlay" class="hero-component-container">
+                    <div class="circular-avatar-badge-container">
+                        <h3 class="inner-component-header">Card with text overlay</h3>
+                        <p class="inner-component-description">
+                            Card with text overlay can be used to provide the major information of card such as out of stock
+                        </p>
+
+                        <div class="main-component-container">
+                            <div class="card-overlay">
+                                <div class="text-overlay">out of stock</div>
+                                <div class="card basic-card overlay-container">
+                                  <div class="basic-card-container">
+                                    <div class="basic-card-img-container">
+                                      <img class="basic-card-img" src="../../assets/card_img5.jpg" alt="image" />
+                                    </div>
+                                    <div class="basic-card-des card-description">
+                                      <h2 class="heading-1">DSLR</h2>
+                                      <p class="heading-2">Sold by ADJ</p>
+                                    </div>
+                                    <p class="heading-3">
+                                      Canon EOS 3000D DSLR Camera 1 Camera Body, 18 - 55 mm Lens (Black)
+                                    </p>
+                                  </div>
+                                  <div class="price-tag">
+                                    <h2 class="price">₹46,990</h2>
+                                    <h2 class="price-overlined">₹56,999</h2>
+                                    <p class="offer-tag">17% off</p>
+                                  </div>
+                                  <div class="footer-card">
+                                   <button class="btn ecommerce-btn add-cart-btn"><span class="material-icons"> add_shopping_cart </span> Add to Cart</button>
+                                    <button class="btn ecommerce-btn save-later-btn">
+                                      Save for later
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                
+                <div class="code-snippet-container">
+                    <script src="https://gist.github.com/Vishruta-Patil/1eae610cbffb09b79dd54c9409ee05ef.js"></script>
+                </div>
+                </div>
+                <hr class="hr-line divider-inner-component" />
+
+                <div id="social-media-card" class="basic-card-container">
+                    <h3 class="inner-component-header">Social media card</h3>
+                    <p class="inner-component-description">
+                        Social media card is used in the social media platforms which has a feature of like, share, bookmark, read and with more options. 
+                    </p>
+
+                    <div class="main-component-container">
+                        <div class="card basic-card">
+                            <div class="basic-card-container">
+                              <div class="basic-card-img-container">
+                                <img class="basic-card-img" src="../../assets/card_camera.jpg" alt="image" />
+                              </div>
+                              <div class="basic-card-des card-description">
+                                <h1 class="heading-1">DSLR</h1>
+                                <p class="heading-2">Sold by ADJ</p>
+                              </div>
+                              <p class="heading-3">
+                                Canon EOS 3000D DSLR Camera 1 Camera Body, 18 - 55 mm Lens (Black)
+                              </p>
+                            </div>
+                            <div class="footer-card social-media-footer-card">
+                              <button class="btn font-button">READ</button>
+                              <button class="btn font-button">BOOKMARK</button>
+                              <button class="btn icon-button">
+                                <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                              </button>
+                              <button class="btn icon-button">
+                                <i class="material-icons mdc-icon-button__icon">share</i>
+                              </button>
+                              <button class="btn icon-button">
+                                <i class="material-icons mdc-icon-button__icon">more_vert</i>
+                              </button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="code-snippet-container">
+                        <script src="https://gist.github.com/Vishruta-Patil/81caf71619f5dfb6eb84d1360512cd4f.js"></script>
+                    </div>
+                </div>
+                <hr class="hr-line divider-inner-component" />
+
+                <div id="horizontal-card" class="hero-component-container">
+                    <div class="circular-avatar-badge-container">
+                        <h3 class="inner-component-header">Horizontal Card</h3>
+                        <p class="inner-component-description">
+                            Horizontal card is the basic card with all the items aligned in horizontal form with header, image , price tag and the button. 
+                        </p>
+
+                        <div class="main-component-container">
+                            <div class="card">
+                                <div class="hero-container">
+                                  <img  class="card-horizontal-img" src="../../assets/card_laptop.jpg" alt="image" />
+                                  <div class="card-description">
+                                    <h2 class="heading-1">Thinkpad E14 (Intel)</h2>
+                                    <p class="heading-2">Sold by ADJ</p>
+                                  </div>
+                                </div>
+                                <div class="price-tag">
+                                  <h2 class="price">₹46,990</h2>
+                                  <h2 class="price-overlined">₹56,999</h2>
+                                  <p class="offer-tag">17% off</p>
+                                </div>
+                                <div class="footer-card">
+                                 <button class="btn ecommerce-btn add-cart-btn"><span class="material-icons"> add_shopping_cart </span> Add to Cart</button>
+                                  <button class="btn ecommerce-btn save-later-btn">
+                                    Save for later
+                                  </button>
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                
+                <div class="code-snippet-container">
+                    <script src="https://gist.github.com/Vishruta-Patil/763d80b1115659965e9bcbb16209d4e8.js"></script>
+                </div>
+                </div>
+                <hr class="hr-line divider-inner-component" />
+
+                <div id="text-only-card" class="hero-component-container">
+                    <div class="circular-avatar-badge-container">
+                        <h3 class="inner-component-header">Text only Card</h3>
+                        <p class="inner-component-description">
+                            Text only card does not contain image. In this card information is given only text.
+                        </p>
+
+                        <div class="main-component-container">
+                            <div class="card">
+                                <div class="hero-container">
+                                    <div class="basic-card-des card-description">
+                                        <h2 class="heading-1">Thinkpad E14 (Intel)</h2>
+                                        <p class="heading-2">Sold by ADJ</p>
+                                        <p class="textoverlay-heading-2">
+                                            11th Generation Intel® Core™ i5-11320H Processor (8MB Cache, up to 4.5GHz)
+                                          </p>
+                                      </div>
+                                    </div>
+
+                                
+                            <div class="price-tag">
+                                <h2 class="price">₹46,990</h2>
+                                <h2 class="price-overlined">₹56,999</h2>
+                                <p class="offer-tag">17% off</p>
+                            </div>
+                            <div class="footer-card">
+                               <button class="btn ecommerce-btn add-cart-btn"><span class="material-icons"> add_shopping_cart </span> Add to Cart</button>
+                                <button class="btn ecommerce-btn save-later-btn">
+                                    Save for later
+                                </button>
+                            </div>
+                              </div>
+
+                        </div>
+                    </div>
+                
+                <div class="code-snippet-container">
+                    <script src="https://gist.github.com/Vishruta-Patil/ee540970e5264f130d37293421652851.js"></script>
+                </div>
+                </div>
+                <hr class="hr-line divider-inner-component" />
+            </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="previous-page">
+                <span class="material-icons"> chevron_left </span>
+                <p>left</p>
+            </div>
+
+            <div class="next-page">
+                <span class="material-icons"> chevron_right </span>
+                <p>right</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="side-content">
+        <h2 class="side-content-title">On This Page</h2>
+        <p class="side-content-subtitle">
+            <a class="side-content-links" href="#vertical-card">Vertical card</a>
+        </p>
+        <p class="side-content-subtitle">
+            <a class="side-content-links" href="#card-with-dismiss">Card with dismiss</a>
+        </p>
+        <p class="side-content-subtitle">
+            <a class="side-content-links" href="#card-with-text-overlay">Card with text overlay</a>
+        </p>
+        <p class="side-content-subtitle">
+            <a class="side-content-links" href="#social-media-card">Social media card</a>
+        </p>
+        <p class="side-content-subtitle">
+            <a class="side-content-links" href="#horizontal-card">Horizontal card</a>
+        </p>
+        <p class="side-content-subtitle">
+            <a class="side-content-links" href="#text-only-card">Text only card</a>
+        </p>
+    </div>
+
+    <script src="../../index.js"></script>
+    <script src="card.js"></script>
+</body>
+
+</html>

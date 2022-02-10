@@ -1,0 +1,59 @@
+.txt {
+    color: var(--black-color);
+    font-size: 1.8rem;
+}
+.lg-txt {
+    font-size: 3rem;
+}
+
+.rg-txt {
+font-size: 2rem;
+}
+
+.md-txt {
+    font-size: 1.5rem;
+}
+
+.sm-txt {
+    font-size: 1rem;
+}
+
+.bolder-txt {
+    font-weight: var(--font-weight-bolder);
+}
+
+.bold-txt {
+    font-weight: var(--font-weight-bold);
+}
+
+.regular-txt {
+    font-weight: var(--font-weight-normal);
+}
+
+.light-txt {
+    font-weight: var(--font-weight-light);
+}
+
+.underline-txt {
+    text-decoration: underline;
+}
+
+.strikethrough-txt {
+    text-decoration: line-through;
+}
+
+.gray-txt {
+    color: var(--text-secondary-color);
+}
+
+.left-txt {
+    text-align: left;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.right-txt {
+    text-align: right;
+}

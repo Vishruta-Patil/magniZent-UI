@@ -237,12 +237,6 @@ img {
   z-index: 2
 }
 
-
-.gist-data{
-  height:25rem; 
-  overflow: auto
-}
-
 .dismiss-btn-inner-container{
   display: flex;
   align-items: baseline;

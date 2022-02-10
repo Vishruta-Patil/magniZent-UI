@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alert || magniZent UI</title>
+    <title>Input || magniZent UI</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="../../style/codeSnippet.css" />
     <link rel="stylesheet" href="../../style/footer.css" />
     <link rel="stylesheet" href="../../style/sidecontent.css" />
-    <link rel="stylesheet" href="alert.css" />
+    <link rel="stylesheet" href="topography.css" />
   </head>
 
   <body>
@@ -149,101 +149,116 @@
       </div>
 
       <div class="main-content">
-        <h2 class="main-content-header">Alert</h2>
+        <h2 class="main-content-header">Typography</h2>
         <p class="component-description">
-          An alert displays a short, important message in a way that attracts
-          the user's attention without interrupting the user's task.
+          Check various text utilities provided by magniZent UI. It is the used
+          to render text and paragraphs within an interface.
         </p>
 
         <hr class="hr-line" />
 
         <div class="hero-component-container">
-          <div id="simple-alert" class="simple-alert-container">
-            <h3 class="inner-component-header">Simple Alert</h3>
+          <div id="heading" class="heading">
+            <h3 class="inner-component-header">Headings</h3>
             <p class="inner-component-description">
-              Simple Alerts can be created using alert class, followed by the
-              variant name.
+              Headings are available from h1 to h6.
             </p>
-            <div class="main-component-container">
-              <div class="alert primary">
-                <span class="material-icons"> info </span>
-                Primary! This is a Primary alert example
-              </div>
-              <div class="alert secondary">
-                <span class="material-icons"> done </span>
-                Secondary! This is a Secondary alert example
-              </div>
-              <div class="alert success">
-                <span class="material-icons"> check_circle </span>
-                Success! This is a Success alert example
-              </div>
-              <div class="alert danger">
-                <span class="material-icons"> error </span>
-                Danger! This is a Danger alert example
-              </div>
-              <div class="alert warning">
-                <span class="material-icons"> warning </span>
-                Warning! This is a Warning alert example
-              </div>
+            <div class="main-component-container flex-container">
+              <h1>Heading h1</h1>
+              <h2>Heading h2</h2>
+              <h3>Heading h3</h3>
+              <h4>Heading h4</h4>
+              <h5>Heading h5</h5>
+              <h6>Heading h6</h6>
             </div>
 
             <div class="code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/b599d084fd82cec61339f07197d47cfa.js"></script>
+              <script src="https://gist.github.com/Vishruta-Patil/6beb47a092973ec0cb1c348b616c32e0.js"></script>
             </div>
           </div>
 
           <hr class="hr-line divider-inner-component" />
 
-          <div id="outline-alert" class="outlined-alert-container">
-            <h3 class="inner-component-header">Outline Alert</h3>
+          <div id="text-sizes" class="text-sizes">
+            <h3 class="inner-component-header">Text Sizes</h3>
             <p class="inner-component-description">
-              Outline alerts are created by using alert class, followed by
-              outline-variant.
+              There are 4 variants for Text sizes. Use the class lg-text for
+              large font, class rg-text for regular font, class md-text for
+              medium font, class sm-text for small font
             </p>
-            <div class="main-component-container">
-              <div class="alert outline-primary">
-                <span class="material-icons"> info </span>
-                Primary! This is a Primary alert example
-              </div>
-              <div class="alert outline-secondary">
-                <span class="material-icons"> done </span>
-                Secondary! This is a Secondary alert example
-              </div>
-              <div class="alert outline-success">
-                <span class="material-icons"> check_circle </span>
-                Success! This is a Success alert example
-              </div>
-              <div class="alert outline-danger">
-                <span class="material-icons"> error </span>
-                Danger! This is a Danger alert example
-              </div>
-              <div class="alert outline-warning">
-                <span class="material-icons"> warning </span>
-                Warning! This is a Warning alert example
-              </div>
+            <div class="main-component-container flex-container">
+              <p class="lg-txt">Large Text</p>
+              <p class="rg-txt">Regular Text</p>
+              <p class="md-txt">Medium Text</p>
+              <p class="sm-txt">Small Text</p>
             </div>
+
             <div class="code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/1f7e46a54ea4ef1cabd00fde31ea32c6.js"></script>
+              <script src="https://gist.github.com/Vishruta-Patil/f42ead2de1e43c1c6487a73eaf0b5b39.js"></script>
             </div>
           </div>
 
-          <hr class="hr-line divider-inner-component" style="margin-top: 0px" />
+          <hr class="hr-line divider-inner-component" />
 
-          <div id="close-btn-alert" class="close-btn-alert-container">
-            <h3 class="inner-component-header">Alert with close button</h3>
+          <div id="text-weight" class="text-weight">
+            <h3 class="inner-component-header">Text Weight</h3>
             <p class="inner-component-description">
-              Alert can have cross icon to close the alert. Check out html and
-              vanilla JS code below.
+              There are 4 variants for Text Weight. Use the class bolder-txt for
+              font weight 900, class bold-txt for font weight 700, class
+              regular-txt for font weight 500, class bolder-txt for font weight
+              300
             </p>
-            <div class="main-component-container xl-padding">
-              <div class="alert warning" id="alert-close-btn">
-                <span class="material-icons"> warning </span>
-                Warning! This is a Warning alert example
-                <button class="alert-close-btn">X</button>
-              </div>
+            <div class="main-component-container flex-container">
+              <p class="bolder-txt rg-txt">Large Text</p>
+              <p class="bold-txt rg-txt">Regular Text</p>
+              <p class="regular-txt rg-txt">Medium Text</p>
+              <p class="light-txt rg-txt">Small Text</p>
             </div>
-            <div class="code-snippet-container sm-code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/79106f2a11eec0692d622fe5fe68cfc4.js"></script>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/326081bb5a9b3bd7eacc01c5dcf5959d.js"></script>
+            </div>
+          </div>
+
+          <hr class="hr-line divider-inner-component" />
+
+          <div id="text-decoration" class="text-decoration">
+            <h3 class="inner-component-header">
+              Text Decoration and Variation
+            </h3>
+            <p class="inner-component-description">
+              Use the class gray-txt for secondary use. Class underline-txt
+              underline the text and class strikethrought-txt strikes out the
+              text.
+            </p>
+            <div class="main-component-container flex-container">
+              <p class="underline-txt rg-txt">Underline text</p>
+              <p class="strikethrough-txt rg-txt">Strike through text</p>
+              <p class="gray-txt rg-txt">Gray Text</p>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/fa989d64299e16334d57c9194dbb1c89.js"></script>
+            </div>
+          </div>
+
+          <hr class="hr-line divider-inner-component" />
+
+          <div id="text-alignment" class="text-alignment">
+            <h3 class="inner-component-header">Text Alignment</h3>
+            <p class="inner-component-description">
+              Text alignment consists of 3 variants. The class left-txt for left
+              alignment, right-txt for right alignment, center-txt for center
+              alignment
+            </p>
+            <div class="main-component-container">
+              <p class="left-txt rg-txt">Text align - LEFT</p>
+              <p class="center-txt rg-txt">Text align - CENTER</p>
+              <p class="right-txt rg-txt">Text align - RIGHT</p>
+            </div>
+
+            <div class="code-snippet-container">
+              <script src="https://gist.github.com/Vishruta-Patil/bdad65c9110ddc3fcb50c5788f8e0b25.js"></script>
             </div>
           </div>
         </div>
@@ -267,20 +282,28 @@
       <div class="side-content">
         <h2 class="side-content-title">On This Page</h2>
         <p class="side-content-subtitle">
-          <a class="side-content-links" href="#simple-alert">Simple Alert</a>
+          <a class="side-content-links" href="#heading">Heading</a>
         </p>
         <p class="side-content-subtitle">
-          <a class="side-content-links" href="#outline-alert">Outline Alert</a>
+          <a class="side-content-links" href="#text-sizes">Text Sizes</a>
         </p>
         <p class="side-content-subtitle">
-          <a class="side-content-links" href="#close-btn-alert"
-            >Alert with close button</a
+          <a class="side-content-links" href="#text-weight">Text Weight</a>
+        </p>
+        <p class="side-content-subtitle">
+          <a class="side-content-links" href="#text-decoration"
+            >Text Decoration and Variation</a
+          >
+        </p>
+        <p class="side-content-subtitle">
+          <a class="side-content-links" href="#text-alignment"
+            >Text Alignment</a
           >
         </p>
       </div>
     </div>
 
     <script src="../../index.js"></script>
-    <script src="alert.js"></script>
+    <script src="input.js"></script>
   </body>
 </html>

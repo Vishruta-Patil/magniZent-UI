@@ -60,3 +60,8 @@ body .gist .blob-code {
   color: var(--black-color);
   font-weight: 300;
 }
+
+.gist-data{
+  height:25rem; 
+  overflow: auto
+}

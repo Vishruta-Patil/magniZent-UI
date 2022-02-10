@@ -1,0 +1,44 @@
+.simple-navigation {
+  background-color: var(--primary-color);
+  width: 80%;
+  padding: 1rem 2rem;
+  color: var(--white-color);
+}
+
+.icon-box > span {
+  margin-right: 1rem;
+}
+
+.icon-box > span:last-child {
+  margin-right: 0rem;
+}
+
+.search-icon {
+  color: black;
+  padding: 0;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.search-bar {
+  background-color: var(--white-color);
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.input-text {
+  padding: 1rem 2rem;
+  width: 80%;
+  border: none;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 549px) {
+  .search-bar {
+  display:none
+  }
+}

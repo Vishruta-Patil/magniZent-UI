@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Input || magniZent UI</title>
+    <title>Rating || magniZent UI</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="../../style/codeSnippet.css" />
     <link rel="stylesheet" href="../../style/footer.css" />
     <link rel="stylesheet" href="../../style/sidecontent.css" />
-    <link rel="stylesheet" href="topography.css" />
+    <link rel="stylesheet" href="rating.css" />
   </head>
 
   <body>
@@ -152,116 +152,80 @@
       </div>
 
       <div class="main-content">
-        <h2 class="main-content-header">Typography</h2>
+        <h2 class="main-content-header">Rating</h2>
         <p class="component-description">
-          Check various text utilities provided by magniZent UI. It is the used
-          to render text and paragraphs within an interface.
+          Rating components are generally used to review or grade. It can be
+          used as read-only badge or in reviews section.
         </p>
 
         <hr class="hr-line" />
 
         <div class="hero-component-container">
-          <div id="heading" class="heading">
-            <h3 class="inner-component-header">Headings</h3>
+          <div id="read-only-rating" class="read-only-rating">
+            <h3 class="inner-component-header">Read Only Rating</h3>
             <p class="inner-component-description">
-              Headings are available from h1 to h6.
+              Read only ratings are the badge ratings which are used in read
+              only purpose.
             </p>
-            <div class="main-component-container flex-container">
-              <h1>Heading h1</h1>
-              <h2>Heading h2</h2>
-              <h3>Heading h3</h3>
-              <h4>Heading h4</h4>
-              <h5>Heading h5</h5>
-              <h6>Heading h6</h6>
+            <div
+              class="main-component-container flex-container rating-container"
+            >
+              <div class="rating-wrapper">
+                <input type="radio" id="star-fixed-1" />
+                <label
+                  id="star-colored"
+                  class="fas fa-star"
+                  for="star-fixed-1"
+                ></label>
+                <input type="radio" id="star-fixed-2" />
+                <label
+                  id="star-colored"
+                  class="fas fa-star star-colored"
+                  for="star-fixed-2"
+                ></label>
+                <input type="radio" id="star-fixed-3" />
+                <label
+                  id="star-colored"
+                  class="fas fa-star star-colored"
+                  for="star-fixed-3"
+                ></label>
+                <input type="radio" id="star-fixed-4" />
+                <label class="fas fa-star" for="star-fixed-4"></label>
+                <input type="radio" id="star-fixed-5" />
+                <label class="fas fa-star" for="star-fixed-5"></label>
+              </div>
             </div>
-
             <div class="code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/6beb47a092973ec0cb1c348b616c32e0.js"></script>
+              <script src="https://gist.github.com/Vishruta-Patil/0d35b77037984f1c7d0886e834a10cfa.js"></script>
             </div>
           </div>
 
           <hr class="hr-line divider-inner-component" />
 
-          <div id="text-sizes" class="text-sizes">
-            <h3 class="inner-component-header">Text Sizes</h3>
+          <div id="dynamic-rating" class="dynamic-rating">
+            <h3 class="inner-component-header">Dynamic Rating</h3>
             <p class="inner-component-description">
-              There are 4 variants for Text sizes. Use the class lg-text for
-              large font, class rg-text for regular font, class md-text for
-              medium font, class sm-text for small font
+              Dynamic ratings can be cantrolled. It is generally used in
+              reviewing sections
             </p>
-            <div class="main-component-container flex-container">
-              <p class="lg-txt">Large Text</p>
-              <p class="rg-txt">Regular Text</p>
-              <p class="md-txt">Medium Text</p>
-              <p class="sm-txt">Small Text</p>
+            <div
+              class="main-component-container flex-container rating-container"
+            >
+              <div class="rating-wrapper">
+                <input type="radio" id="star-1" />
+                <label class="fas fa-star star" for="star-1"></label>
+                <input type="radio" id="star-2" />
+                <label class="fas fa-star star" for="star-2"></label>
+                <input type="radio" id="star-3" />
+                <label class="fas fa-star star" for="star-3"></label>
+                <input type="radio" id="star-4" />
+                <label class="fas fa-star star" for="star-4"></label>
+                <input type="radio" id="star-5" />
+                <label class="fas fa-star star" for="star-5"></label>
+              </div>
             </div>
-
             <div class="code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/f42ead2de1e43c1c6487a73eaf0b5b39.js"></script>
-            </div>
-          </div>
-
-          <hr class="hr-line divider-inner-component" />
-
-          <div id="text-weight" class="text-weight">
-            <h3 class="inner-component-header">Text Weight</h3>
-            <p class="inner-component-description">
-              There are 4 variants for Text Weight. Use the class bolder-txt for
-              font weight 900, class bold-txt for font weight 700, class
-              regular-txt for font weight 500, class bolder-txt for font weight
-              300
-            </p>
-            <div class="main-component-container flex-container">
-              <p class="bolder-txt rg-txt">Large Text</p>
-              <p class="bold-txt rg-txt">Regular Text</p>
-              <p class="regular-txt rg-txt">Medium Text</p>
-              <p class="light-txt rg-txt">Small Text</p>
-            </div>
-
-            <div class="code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/326081bb5a9b3bd7eacc01c5dcf5959d.js"></script>
-            </div>
-          </div>
-
-          <hr class="hr-line divider-inner-component" />
-
-          <div id="text-decoration" class="text-decoration">
-            <h3 class="inner-component-header">
-              Text Decoration and Variation
-            </h3>
-            <p class="inner-component-description">
-              Use the class gray-txt for secondary use. Class underline-txt
-              underline the text and class strikethrought-txt strikes out the
-              text.
-            </p>
-            <div class="main-component-container flex-container">
-              <p class="underline-txt rg-txt">Underline text</p>
-              <p class="strikethrough-txt rg-txt">Strike through text</p>
-              <p class="gray-txt rg-txt">Gray Text</p>
-            </div>
-
-            <div class="code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/fa989d64299e16334d57c9194dbb1c89.js"></script>
-            </div>
-          </div>
-
-          <hr class="hr-line divider-inner-component" />
-
-          <div id="text-alignment" class="text-alignment">
-            <h3 class="inner-component-header">Text Alignment</h3>
-            <p class="inner-component-description">
-              Text alignment consists of 3 variants. The class left-txt for left
-              alignment, right-txt for right alignment, center-txt for center
-              alignment
-            </p>
-            <div class="main-component-container">
-              <p class="left-txt rg-txt">Text align - LEFT</p>
-              <p class="center-txt rg-txt">Text align - CENTER</p>
-              <p class="right-txt rg-txt">Text align - RIGHT</p>
-            </div>
-
-            <div class="code-snippet-container">
-              <script src="https://gist.github.com/Vishruta-Patil/bdad65c9110ddc3fcb50c5788f8e0b25.js"></script>
+              <script src="https://gist.github.com/Vishruta-Patil/ca98cc2a7f914e582ba22a6168574547.js"></script>
             </div>
           </div>
         </div>
@@ -285,28 +249,19 @@
       <div class="side-content">
         <h2 class="side-content-title">On This Page</h2>
         <p class="side-content-subtitle">
-          <a class="side-content-links" href="#heading">Heading</a>
-        </p>
-        <p class="side-content-subtitle">
-          <a class="side-content-links" href="#text-sizes">Text Sizes</a>
-        </p>
-        <p class="side-content-subtitle">
-          <a class="side-content-links" href="#text-weight">Text Weight</a>
-        </p>
-        <p class="side-content-subtitle">
-          <a class="side-content-links" href="#text-decoration"
-            >Text Decoration and Variation</a
+          <a class="side-content-links" href="#read-only-rating"
+            >Read only Rating</a
           >
         </p>
         <p class="side-content-subtitle">
-          <a class="side-content-links" href="#text-alignment"
-            >Text Alignment</a
+          <a class="side-content-links" href="#dynamic-rating"
+            >Dynamic Rating</a
           >
         </p>
       </div>
     </div>
 
     <script src="../../index.js"></script>
-    <script src="input.js"></script>
+    <script src="rating.js"></script>
   </body>
 </html>

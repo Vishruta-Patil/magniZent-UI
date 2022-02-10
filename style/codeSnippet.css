@@ -62,6 +62,6 @@ body .gist .blob-code {
 }
 
 .gist-data{
-  height:25rem; 
+  max-height:25rem; 
   overflow: auto
 }

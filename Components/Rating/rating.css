@@ -1,0 +1,16 @@
+.rating-wrapper input {
+  display: none;
+}
+
+.rating-wrapper label {
+  font-size: 3rem;
+  color: var(--star-color);
+  padding: 1rem;
+  transition: all 0.2 ease;
+}
+
+#star-colored {
+    color: var(--star-hover-color)
+}
+
+

@@ -72,9 +72,4 @@
   border: 2px solid var(--success-component-color)
 }
 
-.gist-data{
-  height:25rem; 
-  overflow: auto
-} 
-
 

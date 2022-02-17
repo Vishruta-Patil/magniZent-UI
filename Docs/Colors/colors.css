@@ -22,19 +22,20 @@
 .primary-color {
     background-color: var(--primary-color)
   }
-  
+
   .secondary-color {
     background-color: var(--secondary-color)
   }
-  
+
   .success-color {
     background-color: var(--success-component-color)
   }
-  
+
   .warning-color {
     background-color: var(--warning-component-color)
   }
-  
+
+
   .danger-color {
     background-color: var(--danger-component-color)
   }

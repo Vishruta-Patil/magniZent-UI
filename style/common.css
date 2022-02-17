@@ -1,8 +1,7 @@
 .hr-line {
   height: 1px;
   border-width: 0;
-  background-color: #0097a7;
-  /* #e2e2e2; */
+  background-color: var(--primary-color);
 }
 
 .flex-container {
@@ -56,6 +55,26 @@
 .class-name {
   color: var(--secondary-color);
   font-weight: 600;
+}
+
+.primary-color {
+  color: var(--primary-color)
+}
+
+.secondary-color {
+  color: var(--secondary-color)
+}
+
+.success-color {
+  color: var(--primary-color)
+}
+
+.warning-color {
+  color: var(--primary-color)
+}
+
+.danger-color {
+  color: var(--primary-color)
 }
 
 @media only screen and (max-width: 800px) {

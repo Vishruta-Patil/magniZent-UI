@@ -8,12 +8,19 @@
   margin: 4rem 3.5rem 4rem 1rem;
   margin-top: 1.6rem;
   padding: 0 2.7rem 0;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.menu::-webkit-scrollbar {
+  width: 3px;
 }
 
 .drawer-container {
   display: flex;
   flex-direction: column;
   margin: 3rem;
+  margin-top: 1rem;
 }
 
 .drawer-header {

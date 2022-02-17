@@ -58,4 +58,9 @@
     align-items: center;
     align-content: center;
   }
+  .responsive-image {
+    margin: 3rem auto;
+    width: 55rem;
+    max-width: 60rem;
+  }
 }

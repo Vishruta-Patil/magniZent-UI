@@ -1,0 +1,18 @@
+.grid-two {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:3rem;
+}
+
+.grid-three {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem;
+}
+
+.grid-container {
+    border: 1px solid black;
+    padding: 3rem;
+    text-align: center;
+    color: var(--primary-color)
+}

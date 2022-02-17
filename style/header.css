@@ -55,7 +55,9 @@
 
 .social-link-icon {
   font-size: 2.5rem;
+  color: var(--secondary-color)
 }
+
 
 .social-link-icon:hover {
  color: var(--primary-color);

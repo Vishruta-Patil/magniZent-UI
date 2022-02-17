@@ -2,18 +2,26 @@
 @import url("../../style/color.css");
 @import url("../../style/common.css");
 
-
 /* footer */
 .footer {
-    grid-area: footer;
-    
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 3rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--secondary-color)
-  }
+  grid-area: footer;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.footer-pagination {
+  color: var(--secondary-color);
+  text-decoration: none;
+  cursor: pointer
+}
+
+.footer-pagination:hover {
+  color: var(--primary-color)
+}

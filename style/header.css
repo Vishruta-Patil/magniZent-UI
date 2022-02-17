@@ -67,6 +67,22 @@
   color: var(--primary-color); 
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-item {
+ color: var(--secondary-color);
+}
+
+.main-title{
+  color: var(--primary-color)
+}
+
 @media only screen and (max-width: 675px) {
   .social-links-container {
     display: none;

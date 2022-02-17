@@ -31,19 +31,20 @@
           class="logo flex-container"
           style="align-items: baseline; gap: 2rem"
         >
-          <span id="hamburger-menu" class="material-icons hamburger-menu">
-            menu
-          </span>
-          <h2 class="main-title">
-            magni<span class="bold-main-title">Z</span>ent
-            <span class="bold-main-title">UI</span>
-          </h2>
+          <a href="index.html">
+            <h2 class="main-title">
+              magni<span class="bold-main-title">Z</span>ent
+              <span class="bold-main-title">UI</span>
+            </h2>
+          </a>
         </div>
 
         <div class="header-main-content">
           <ul class="flex social-links-inner-container">
-            <li class="header-item">Home</li>
-            <li class="header-item">Documentation</li>
+            <a class="header-item" href="index.html"><li>Home</li></a>
+            <a class="header-item" href="./Docs/Introduction/introduction.html"
+              ><li>Documentation</li></a
+            >
           </ul>
         </div>
         <div class="social-links-container">
@@ -63,11 +64,6 @@
             <li>
               <a href="https://twitter.com/vishruta_patil" target="_blank"
                 ><i class="fab fa-twitter social-link-icon"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/vishruta_patil" target="_blank"
-                ><i class="fas fa-moon social-link-icon"></i
               ></a>
             </li>
           </ul>
@@ -123,7 +119,9 @@
             <a class="drawer-links" href="../Rating/rating.html">Rating</a>
           </p>
           <p class="drawer-inner-header">
-            <a class="drawer-links" href="../Snackbar/snackbar.html">Snackbar</a>
+            <a class="drawer-links" href="../Snackbar/snackbar.html"
+              >Snackbar</a
+            >
           </p>
           <p class="drawer-inner-header">
             <a class="drawer-links" href="../Typography/typography.html"
@@ -174,7 +172,8 @@
             <h3 class="inner-component-header">Read Only Rating</h3>
             <p class="inner-component-description">
               Read only ratings are the badge ratings which are used in read
-              only purpose.
+              only purpose. Use the id star-colored in each label of star you
+              want to highlight.
             </p>
             <div
               class="main-component-container flex-container rating-container"
@@ -244,13 +243,17 @@
       <div class="footer">
         <div class="footer-container">
           <div class="previous-page">
-            <span class="material-icons"> chevron_left </span>
-            <p>left</p>
+            <a class="footer-pagination" href="../Navigation/navigation.html">
+              <span class="material-icons"> chevron_left </span>
+              <p>left</p></a
+            >
           </div>
 
           <div class="next-page">
-            <span class="material-icons"> chevron_right </span>
-            <p>right</p>
+            <a class="footer-pagination" href="../Snackbar/snackbar.html">
+              <span class="material-icons"> chevron_right </span>
+              <p>right</p></a
+            >
           </div>
         </div>
       </div>

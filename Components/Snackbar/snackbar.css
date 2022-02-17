@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 1rem 3rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.snackbar-section {
+  margin-top: 5rem;
+}
+
+.snackbar {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255);
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+  width: 400px;
+  margin: auto;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: auto;
+}
+.snackbar-align {
+  align-items: center;
+}
+.snackbar-baseline-btn {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.snackbar-content-2 {
+  color: var(--primary-color);
+  letter-spacing: 1.5px;
+}
+
+.snackbar-close-btn {
+  outline: none;
+  background-color: inherit;
+  border: none;
+  color: inherit;
+  font-size: 1.6rem;
+  width: 30px;
+  height: 30px;
+}
+
+.snackbar-close-btn:hover {
+  background-color: rgb(128, 128, 128);
+  border-radius: 50%;
+}
+
+.snackbar-stack {
+  flex-direction: column;
+  width: 450px;
+  gap: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.snackbar-stack-inner {
+  font-weight: 900;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.success {
+  color: var(--success-component-color);
+  background-color: var(--success-component-background-color);
+}
+
+.warning {
+  color: var(--warning-component-color);
+  background-color: var(--warning-component-background-color);
+}
+
+.danger {
+  color: var(--danger-component-color);
+  background-color: var(--danger-component-background-color);
+}
+
+.standard-close-btn {
+    background-color: transparent;
+}

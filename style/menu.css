@@ -76,7 +76,9 @@
   transition: transform 9s ease-out, visibility 9s;
 } */
 
-@media only screen and (max-width: 800px) {
+
+
+@media only screen and (max-width: 1000px) {
   .html {
     font-size: 50%;
   }
@@ -108,7 +110,7 @@
 
 @media only screen and (max-width: 675px) {
   .menu {
-    width: 50%;
+    width: 100%;
   }
   .social-links-toggle-menu {
     display: flex;

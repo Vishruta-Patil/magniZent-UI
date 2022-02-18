@@ -8,14 +8,14 @@
 }
 
 .side-content-title {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   color: var(--primary-color);
   font-weight: 900;
 }
 
 .side-content-subtitle {
   color: (--secondary-color);
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   padding-top: 2rem;
 }
 

@@ -1,0 +1,9 @@
+.mr-b {
+  margin: 3.5rem auto;
+}
+
+.gen-line {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: bolder;
+}

@@ -67,6 +67,10 @@
   color: var(--primary-color); 
 }
 
+.hide-list-type {
+  list-style-type: none;
+}
+
 li {
   list-style-type: none;
 }

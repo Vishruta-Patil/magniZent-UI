@@ -47,28 +47,36 @@
     justify-content: space-evenly;
   }
 
-  .upper-roman {
+  .upper-roman > li {
     list-style-type: upper-roman;
   }
 
-  .lower-roman {
+  .lower-roman > li {
     list-style-type: lower-roman;
   }
 
-  .upper-alpha {
+  .upper-alpha > li {
     list-style-type: upper-alpha;
   }
 
-  .lower-alpha {
+  .lower-alpha > li {
     list-style-type: lower-alpha;
   }
 
-  .list-style-square {
+  .list-style-square > li{
     list-style-type: square;
   }
 
-  .list-style-circle {
+  .list-style-circle > li {
     list-style-type: circle;
+}
+
+.decimal-list-type > li {
+  list-style-type: decimal;
+}
+
+.list-style-disc > li {
+  list-style-type: disc;
 }
 
 .gist-data{

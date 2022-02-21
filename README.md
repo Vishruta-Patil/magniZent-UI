@@ -1,4 +1,4 @@
-<h1 align="center">magniZent Quiz</h1>
+<h1 align="center">magniZent UI</h1>
 <p>magniZent UI is a simple, robust and customizable component library
             that enables you to build your design system and develop web
             applications faster.</p>
@@ -36,4 +36,4 @@ copy the link given below in the `<head>` tag of your html before all other styl
 
 ## Preview
 
-![Demo](./assets/magniZent_UI.mkv)
+![Demo](./assets/magniZent_UI.gif)

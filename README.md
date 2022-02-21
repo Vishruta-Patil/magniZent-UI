@@ -31,6 +31,7 @@ copy the link given below in the `<head>` tag of your html before all other styl
 - [Modal](https://magnizent-ui.netlify.app/components/modal/modal)
 - [Navigation](https://magnizent-ui.netlify.app/components/navigation/navigation)
 - [Rating](https://magnizent-ui.netlify.app/components/rating/rating)
+- [Slider](https://magnizent-ui.netlify.app/components/slider/slider)
 - [Snackbar](https://magnizent-ui.netlify.app/components/snackbar/snackbar)
 - [Typography](https://magnizent-ui.netlify.app/components/typography/typography)
 
